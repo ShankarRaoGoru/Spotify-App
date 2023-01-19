@@ -1,3 +1,5 @@
+import javax.sound.midi.Soundbank;
+import java.sql.SQLOutput;
 import java.util.*;
 
 public class Main {
@@ -93,6 +95,9 @@ public class Main {
                     printMenu();
                     break;
                 case 5:
+
+                itr.remove();
+                    System.out.println("song is deleted successfully");
                     break;
                 case 6:
                     printSongs(playlist);
